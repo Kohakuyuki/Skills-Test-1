@@ -9,6 +9,8 @@ int main()
 	double pphour, hourspweek, incomewotax, incomewtax, moneyclothes, moneysupp, addsavings;
 	int moneysavings;
 
+	cout << setprecision(2) << fixed << showpoint;
+
 	//Constants
 	//Total of 50% in tax including savings bonds.
 	const double summer_tax = .14;
